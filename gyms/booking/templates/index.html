@@ -1,0 +1,18 @@
+{% extends 'layout.html' %}
+{% load static %}
+
+{% block head %}
+<title>Home</title>
+{% endblock %}
+
+{% block body %}
+
+    <div style="background-image: url('https://www.planetfitness.com/sites/default/files/feature-image/break-workout_602724.jpg');">
+        <div class="text-center  pt-5 pb-5">
+            <h1 class="display-1 cGreen me-2 ms-2">Planet Fitness</h1>
+            <p class="fs-4 mt-3">Judgement Free Zone</p>
+            <a type="button" style="background-color: purple; padding: 10px; color: #ffffff" href="{% url 'booking' %}">Booking Class</a>
+        </div>
+    </div>
+
+{% endblock %}
